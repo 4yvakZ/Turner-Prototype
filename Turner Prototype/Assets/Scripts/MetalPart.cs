@@ -21,16 +21,17 @@ public class MetalPart : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("Collision");
         if (collision.gameObject.CompareTag("Chisel") && !isCutted)
         {
-            StartCoroutine(Cutting());
+            if (collision.gameObject.GetComponent<Chisel>().IsHeld)
+            {
+                StartCoroutine(Cutting());
+            }
         }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        Debug.Log("No Collision"); 
         StopAllCoroutines();
     }
 
