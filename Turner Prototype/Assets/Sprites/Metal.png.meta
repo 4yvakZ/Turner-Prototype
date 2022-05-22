@@ -69,7 +69,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -119,10 +119,10 @@ TextureImporter:
       name: Metal_0
       rect:
         serializedVersion: 2
-        x: 183
-        y: 136
+        x: 267
+        y: 178
         width: 4
-        height: 88
+        height: 4
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,413 +130,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1672b63915b12614384eef28571d350d
-      internalID: -792162890
+      spriteID: eb3ed6576b1c89c4f84fee1b81cc3127
+      internalID: 1118453579
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
       name: Metal_1
-      rect:
-        serializedVersion: 2
-        x: 187
-        y: 138
-        width: 4
-        height: 84
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8d36964ac38f08d46a60f05ee0e4121a
-      internalID: 1377381156
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal_2
-      rect:
-        serializedVersion: 2
-        x: 191
-        y: 140
-        width: 4
-        height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1aae6b641f6d42e41b6a223016872757
-      internalID: 1642066328
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal_3
-      rect:
-        serializedVersion: 2
-        x: 195
-        y: 142
-        width: 4
-        height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8019b6a6a3b49da4180975c9060d6ab2
-      internalID: 1301302863
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal_4
-      rect:
-        serializedVersion: 2
-        x: 199
-        y: 144
-        width: 4
-        height: 72
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 066ee894b9a9e1c4290c022568f79f37
-      internalID: -547472305
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal_5
-      rect:
-        serializedVersion: 2
-        x: 203
-        y: 146
-        width: 4
-        height: 68
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c3e0fc8a7ecb3cd4d8fcc4292d243d36
-      internalID: -666624856
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal_6
-      rect:
-        serializedVersion: 2
-        x: 207
-        y: 148
-        width: 4
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 120e4f995a103a244aa0493ac11fe96a
-      internalID: 1382924992
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal_7
-      rect:
-        serializedVersion: 2
-        x: 211
-        y: 150
-        width: 4
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 17421c0fde3192740978679a3ec708f4
-      internalID: -24973853
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal_8
-      rect:
-        serializedVersion: 2
-        x: 215
-        y: 152
-        width: 4
-        height: 56
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 92653d7918d12284c99daae4ff59e5b7
-      internalID: -926553017
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal_9
-      rect:
-        serializedVersion: 2
-        x: 219
-        y: 154
-        width: 4
-        height: 52
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4431725aa89101843b64cd527929a2ae
-      internalID: 1998182726
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal_10
-      rect:
-        serializedVersion: 2
-        x: 223
-        y: 156
-        width: 4
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9951614940fbc67449a465cd9129a915
-      internalID: 1932745500
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal_11
-      rect:
-        serializedVersion: 2
-        x: 227
-        y: 158
-        width: 4
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8d91219f14840f74f949604304eeadd4
-      internalID: 375798898
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal_12
-      rect:
-        serializedVersion: 2
-        x: 231
-        y: 160
-        width: 4
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e14e612b98e246746a8f158aa8cb9be4
-      internalID: -1017090389
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal_13
-      rect:
-        serializedVersion: 2
-        x: 235
-        y: 162
-        width: 4
-        height: 36
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fba77bfb3e9d2784982b16b873a19276
-      internalID: -526589966
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal_14
-      rect:
-        serializedVersion: 2
-        x: 239
-        y: 164
-        width: 4
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 88c884e530d0ed448a208d537451146a
-      internalID: 829252828
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal_15
-      rect:
-        serializedVersion: 2
-        x: 243
-        y: 166
-        width: 4
-        height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc81df03b490198429635f6ac07f7df5
-      internalID: -1844271902
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal_16
-      rect:
-        serializedVersion: 2
-        x: 247
-        y: 168
-        width: 4
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5f9d63d551e59fb429441f5e05d643e8
-      internalID: -462750434
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal_17
-      rect:
-        serializedVersion: 2
-        x: 251
-        y: 170
-        width: 4
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e10e33a4670a09441994940935cc4264
-      internalID: 1384115454
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal_18
-      rect:
-        serializedVersion: 2
-        x: 255
-        y: 172
-        width: 4
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9b2625953710e46449f8f8ab942747e0
-      internalID: 1207155659
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal_19
-      rect:
-        serializedVersion: 2
-        x: 259
-        y: 174
-        width: 4
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d192cc36dc8c1845a7f75cf04e3174f
-      internalID: 1321866154
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal_20
       rect:
         serializedVersion: 2
         x: 263
@@ -550,8 +151,407 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98ab6ca2ea4581e40a6451aef0d60a27
-      internalID: 255348156
+      spriteID: 0fa3e978cddb53e4aaa592881b48a43c
+      internalID: -583047185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_2
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 174
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ad024fa17674f4a9a2e9dedc7b07b7
+      internalID: 1604976834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_3
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 172
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398f5bc4a567b364a9e58a3d253979a9
+      internalID: 1584833893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_4
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 170
+        width: 4
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f49e9b13e034a428b8a4dde915feef
+      internalID: 1708463986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_5
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 168
+        width: 4
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca266456681f1d840a2bbfdab367e1af
+      internalID: 1242587409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_6
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 166
+        width: 4
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cec589d5c68b75499128ab49601ccde
+      internalID: 1379338492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_7
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 164
+        width: 4
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc272892e9141c49861cec0d380fb87
+      internalID: -1676543521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_8
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 162
+        width: 4
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b93cc6edb6ff33489bc8080b52ebb25
+      internalID: 460507362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_9
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 160
+        width: 4
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df847960fa6de746ada7805ee42d100
+      internalID: -462120352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_10
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 158
+        width: 4
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89785185c9c49e248a54f650381c3079
+      internalID: -470921777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_11
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 156
+        width: 4
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f5402a813e4354387c27ef8a7103b4
+      internalID: 1184330349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_12
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 154
+        width: 4
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae44ee55c6e86ac46a342b2653b1ca88
+      internalID: -811312795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_13
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 152
+        width: 4
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87459a44ccf3d1b40a6694af3b0f764b
+      internalID: 1129546407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_14
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 150
+        width: 4
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14c4a020650ebe459e8b43bfc2d6af6
+      internalID: 428852641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_15
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 148
+        width: 4
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53d674b5b99ea34a8bad9335006a69e
+      internalID: 445171128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_16
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 146
+        width: 4
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b411b054c1e0bf4d99df697e7b78c18
+      internalID: 1353355622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_17
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 144
+        width: 4
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c822c94bc58de48825ec3e1f7dfee4
+      internalID: 139936306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_18
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 142
+        width: 4
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8060622111be20a4d8174dc0eda656a1
+      internalID: 1281628630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_19
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 140
+        width: 4
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a31213532bd8c1488e922e3a29050af
+      internalID: 1831715482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_20
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 138
+        width: 4
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ffa328c67910b746a119040a400c7a9
+      internalID: 1867995368
       vertices: []
       indices: 
       edges: []
@@ -560,19 +560,19 @@ TextureImporter:
       name: Metal_21
       rect:
         serializedVersion: 2
-        x: 267
-        y: 178
+        x: 183
+        y: 136
         width: 4
-        height: 4
+        height: 88
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e0031fbee9a0a440b2ddd495208a054
-      internalID: -2099410303
+      spriteID: c7a060aabf388bf44be9e0de966f2e24
+      internalID: 211858586
       vertices: []
       indices: 
       edges: []
@@ -588,29 +588,28 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Metal_7: -24973853
-      Metal_19: 1321866154
-      Knob: -1915554742
-      Metal_11: 375798898
-      Metal_12: -1017090389
-      Metal_17: 1384115454
-      Metal_5: -666624856
-      Metal_4: -547472305
-      Metal_9: 1998182726
-      Metal_2: 1642066328
-      Metal_8: -926553017
-      Metal_18: 1207155659
-      Metal_15: -1844271902
-      Metal_20: 255348156
-      Metal_1: 1377381156
-      Metal_14: 829252828
-      Metal_16: -462750434
-      Metal_13: -526589966
-      Metal_6: 1382924992
-      Metal_0: -792162890
-      Metal_10: 1932745500
-      Metal_3: 1301302863
-      Metal_21: -2099410303
+      Metal_7: -1676543521
+      Metal_19: 1831715482
+      Metal_11: 1184330349
+      Metal_12: -811312795
+      Metal_17: 139936306
+      Metal_5: 1242587409
+      Metal_4: 1708463986
+      Metal_9: -462120352
+      Metal_2: 1604976834
+      Metal_8: 460507362
+      Metal_18: 1281628630
+      Metal_15: 445171128
+      Metal_20: 1867995368
+      Metal_1: -583047185
+      Metal_14: 428852641
+      Metal_16: 1353355622
+      Metal_13: 1129546407
+      Metal_6: 1379338492
+      Metal_0: 1118453579
+      Metal_10: -470921777
+      Metal_3: 1584833893
+      Metal_21: 211858586
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

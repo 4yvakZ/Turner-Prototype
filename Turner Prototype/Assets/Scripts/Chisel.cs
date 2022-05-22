@@ -6,7 +6,6 @@ public class Chisel : MonoBehaviour
 {
     [SerializeField] private float maxSpeed = 50;
     [SerializeField] private float speed = 10;
-    [SerializeField] private int gravityScale = 2;
     private Vector3 mouseOffset;
     private Rigidbody2D chiselRB;
 
@@ -19,7 +18,6 @@ public class Chisel : MonoBehaviour
     void Start()
     {
         chiselRB = GetComponent<Rigidbody2D>();
-        chiselRB.gravityScale = gravityScale;
     }
 
     // Update is called once per frame
@@ -30,9 +28,16 @@ public class Chisel : MonoBehaviour
 
     private void OnMouseDown()
     {
-        mouseOffset = transform.position - GetMousePosition();
         isDragged = true;
+        DetachFromHolder();
+        mouseOffset = transform.position - GetMousePosition();
+    }
+
+    private void DetachFromHolder()
+    {
+        transform.SetParent(null);
         IsHeld = false;
+        chiselRB.isKinematic = false;
     }
 
     private void OnMouseDrag()
@@ -54,17 +59,12 @@ public class Chisel : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Holder")){
+        if (collision.gameObject.CompareTag("Holder") && !IsHeld){
             if (!isDragged)
             {
-                transform.position = (Vector3)(collision.GetComponent<CircleCollider2D>().offset * collision.transform.localScale) + collision.transform.position;
-                chiselRB.gravityScale = 0;
+                AttachToHolder(collision.gameObject);
                 IsHeld = true;
             } 
-            else
-            {
-                chiselRB.gravityScale = gravityScale;
-            }
         }
     }
 
@@ -73,5 +73,13 @@ public class Chisel : MonoBehaviour
         Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         mousePosition.z = 0;
         return mousePosition;
+    }
+
+    private void AttachToHolder(GameObject holder)
+    {
+        transform.SetParent(holder.transform);
+        chiselRB.velocity = Vector2.zero;
+        transform.localPosition = holder.GetComponent<CircleCollider2D>().offset;
+        chiselRB.isKinematic = true;
     }
 }
